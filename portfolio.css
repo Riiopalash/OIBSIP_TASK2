@@ -1,0 +1,238 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+
+body{
+    background: #262626; 
+
+}
+header{
+    width: 100%;
+    height:100vh;
+    position: relative;
+   
+}
+nav{
+
+    width:100%;
+    height:100px;
+   display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: bisque;
+    padding: 0 70px;
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+.htext{
+    top: 7%;
+    margin:0 0.2px;
+    font-family: sans-serif;
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+.menu a{
+    text-decoration: none;  
+    color: white; 
+    padding: 10px 20px;
+    font-size:12px 20px;
+    font-family: sans-serif;
+    transition: 0.4s;
+   
+   }
+ 
+.circle{
+    width: 500px;
+    height:500px;
+    background-color: #691e63;
+    clip-path: circle(80% at 0% 0%);
+    
+}
+.h-text{
+    font-family: sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+.h-text h1{
+    font-size: 3em;
+    font-size: x-large;
+    letter-spacing: 5px;
+    
+
+
+}
+.h-text h2{
+    font-size: 0.8em;
+    line-height: 1em;
+    font-size: 4em;
+    justify-content: space-between;
+color: white;
+    
+    
+}
+.r-img img{
+    position: absolute;
+    height:300px;
+    bottom:30%;
+    right:10%;
+
+}
+.watermark{
+  font-size: 8.5em;  
+  letter-spacing: 15px;
+  color:rgba(255, 255, 255, 0.1);
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+}
+#about{
+    padding: 50px 100px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+}
+.circlu{
+    width:300px;
+    height: 300px;
+    background-color: #691e63;
+    border-radius: 88% 12% 51% 49% / 47% 48% 52% 53% ;
+    position: absolute;
+    bottom: 35%;
+    right:10%;
+
+}
+.about-text{
+    text-align: right;
+    color: azure;
+    max-width: 600px;
+    position: absolute;
+    top:32%;
+    left: 49%;
+    z-index: 1;
+}
+.about-text h1{
+    font-size: 4.5em;
+    margin-bottom: 15px;
+}
+.about-text h2{
+    color: black;}
+#ab-img{
+    position: absolute;
+    top: 55%;
+    width: 250px;
+    height: 350px;
+    bottom: -10%;
+    z-index: 1;
+}
+#work{
+    padding: 0px 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: #691e63;
+}
+.card{
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+}
+.card-box{
+    flex-basis: 25%;
+    background:black;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px black;
+    position: relative;
+    margin: 0px 20px;
+    
+}
+.card-box i{
+    padding: 20px;
+    background: white;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+    border-radius: 88% 12% 51% 49% / 47% 48% 52% 53% ;
+}
+.card-box h2{
+    color: #691e63;
+    padding-bottom: 10px;
+    
+}
+#contact{
+    padding: 0px 100px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.newwater{
+    font-size: 8.5em;  
+    letter-spacing: 15px;
+    color:rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: -15%;
+    right: 20%;
+  }
+  .circla{
+    width:300px;
+    height: 300px;
+    background-color: #691e63;
+    border-radius: 88% 12% 51% 49% / 47% 48% 52% 53% ;
+    position: absolute;
+    bottom: 35%;
+    right:10%;
+
+} 
+.form{
+    max-width: 400px;
+    position: absolute;
+    top:50%;
+}
+.form input{
+
+    padding: 10px;
+    background: none;
+    width: 100%;
+    border: 1px solid #691e63;
+    margin-bottom: 10px;
+}
+textarea{
+    padding: 10px;
+    background: none;
+    width: 100%;
+    border: 1px solid #691e63;
+    margin-bottom: 10px;
+
+}
+button{
+    padding: 10px;
+    background: #691e63;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 88% 12% 51% 49% / 47% 48% 52% 53% ;
+    
+}
+footer{
+    width: 100%;
+    padding:20px;
+    text-align: center;
+    color: white;
+}
+footer i{
+    margin:0px 5px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    background: #691e63;
+    border-radius:88% 12% 51% 49% / 47% 48% 52% 53% ; 
+}
